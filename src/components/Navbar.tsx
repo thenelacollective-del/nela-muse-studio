@@ -16,7 +16,7 @@ const Navbar = () => {
         
 
 
-        <a className="font-sans text-xs tracking-[0.2em] uppercase bg-primary text-primary-foreground px-5 py-2 hover:bg-terracotta-light transition-colors" href="mailto:info@thenelacollective.com">
+        <a className="font-sans text-xs tracking-[0.2em] uppercase bg-primary text-primary-foreground px-5 py-2 hover:bg-gold-light transition-colors" href="mailto:info@thenelacollective.com">
           Get in Touch
         </a>
       </div>
