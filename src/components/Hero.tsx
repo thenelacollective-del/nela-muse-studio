@@ -10,13 +10,13 @@ const Hero = () => {
           alt="Modern architectural building at golden hour"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-foreground/90 via-foreground/40 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-forest-deep/95 via-forest/60 to-forest-deep/30" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 lg:px-12">
-        <p className="font-sans text-sm tracking-[0.35em] uppercase text-primary-foreground/70 mb-4 animate-fade-up">
-          Architectural Study Tours · Community · Craft
+        <p className="font-sans text-sm tracking-[0.35em] uppercase text-primary/70 mb-4 animate-fade-up">
+          Education Through Exploration
         </p>
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-primary-foreground leading-[0.95] mb-6 animate-fade-up" style={{ animationDelay: "0.15s" }}>
           The Nela<br />Collective
@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="flex gap-4 animate-fade-up" style={{ animationDelay: "0.45s" }}>
           <a
             href="#tours"
-            className="inline-block bg-primary text-primary-foreground px-8 py-3.5 font-sans text-sm tracking-wider uppercase hover:bg-terracotta-light transition-colors"
+            className="inline-block bg-primary text-primary-foreground px-8 py-3.5 font-sans text-sm tracking-wider uppercase hover:bg-gold-light transition-colors"
           >
             Explore Tours
           </a>
